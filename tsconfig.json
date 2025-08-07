@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "outDir": "build",
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+//    "noUncheckedIndexedAccess": true,
+    "allowJs": true,
+    "checkJs": false,
+    "skipLibCheck": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "lib": ["esnext", "dom"],
+    "baseUrl": ".",
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS",
+      "skipLibCheck": true,
+      "resolveJsonModule": true
+    }
+  },
+  "exclude": [
+    "node_modules",
+  ]
+}

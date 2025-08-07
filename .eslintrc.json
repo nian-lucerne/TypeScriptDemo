@@ -1,0 +1,21 @@
+{
+  "env": {
+    "browser": true,
+    "es2022": true,
+    "node": true
+  },
+  "root": true,
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "extends": [],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 13,
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  },
+  "rules": {
+    "@typescript-eslint/no-implicit-any-catch": "warn"
+  }
+}
